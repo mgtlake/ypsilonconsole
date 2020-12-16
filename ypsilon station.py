@@ -1,4 +1,5 @@
 import time #This  gives the pause in one-second increments.  Keep this!
+from os import system
 
 #Coded by Kyle Ross
 #Content by DG Chapman, Sean McCoy, and Quadra
@@ -71,6 +72,7 @@ GlobalVariables = {
 
 
 required = ("\nUse only A, B, or C\n") #Cutting down on duplication
+system("clear")
 print ("""__   __        _ _               _____ _        _   _             
 \ \ / /       (_) |             /  ___| |      | | (_)            
  \ V / __  ___ _| | ___  _ __   \ `--.| |_ __ _| |_ _  ___  _ __  
